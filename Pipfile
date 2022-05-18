@@ -1,0 +1,15 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+alabaster = "==0.7.12"
+appdirs = "==1.4.4"
+beautifulsoup4 = "==4.8.2"
+ApiDoc = "==1.4.0"
+
+[dev-packages]
+
+[requires]
+python_version = "3.8"
