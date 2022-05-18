@@ -28,6 +28,7 @@ jobs:
         run: |
           python manage.py makemigrations --noinput
           python manage.py migrate --noinput
+      -name: Run Tests
         run: |
           python manage.py test
       - name: Check Syntax # We are just testing the syntax in names app;
